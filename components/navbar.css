@@ -1,0 +1,22 @@
+/*quando quero usar a classe, uso .xyz*/
+.navbar {
+  height: 70px;
+  box-shadow: 0px -2px 10px rgba(0,0,0,0.3);
+  display: flex; /* flexbox */
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+/*quando quero usar o id, uso #xyz*/
+#login {
+  margin-right: 5%;
+  text-decoration:  none;
+	
+}
+/* fontawesome.com entrega icones com propriedades de fonte*/
+#logo-navbar {
+  margin-left: 5%;
+  font-size: 30px;
+	
+}

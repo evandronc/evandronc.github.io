@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!--Intelligence Meta-DATA-->    
+    <!--<meta property="og.title" content ="Le Wagon - The..">-->
+    <!--<meta property="og.image" content ="facebook_card.jpg">-->
+    <meta charset="utf-8">
+    <title>Landing 101</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--O que é viewport?-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<script>
+        // let isBroken = false
+        // teste
+        //romeu
+        const onClickSuccess = () => {
+        // const lamp = document.getElementById("lamp")
+        // lamp.src = "images/bulb-on.jpg"
+        // alert("Sucesso!");
+        confirm("Vc tem sucesso mesmo?");
+        }
+        // const changeLamp = (number) => {
+        //     const lamp = document.getElementById("button")
+        //     if (!isBroken)
+        //     {
+        //         if (number == 1) {
+        //             lamp.src = "images/bulb-on.jpg"
+        //             isBroken = true
+        //         } else if (number == 2) {
+        //             lamp.src = "images/bulb-broken.jpg"
+        //         } else {
+        //             lamp.src = "images/bulb-off.jpg"
+        //         }
+        //     }
+        
+</script>
+<body>
+
+    <div class="navbar">
+            <i class="fas fa-globe-africa" id="logo-navbar"></i>
+            <a href="#" id="login">Login</a> <!-- id é o mesmo que classe, mas é usado 
+                para itens que não irão repetir-->
+            <!--
+                <a href="http://lewagon.org" target="_black" text-decoration:none>Le Wagon</a> 
+            -->
+    </div>
+
+    <div class="banner">
+        <h1>Le Wagon | Landing Page</h1>
+        <!-- Indicates a successful or positive action -->
+        <button type="button" class="btn btn-success" onclick=onClickSuccess()>Sucesso</button>
+    </div>
+
+    <div class="dashboard-item">
+        <div>
+            <img src="images/diamond.png" alt="">
+            <h2>Super Fast</h2>
+            <p>Faster than The Flash!</p>
+        </div>
+        <div>
+            <img src="images/heart.png" alt="">
+            <h2>Super Fast</h2>
+            <p>Faster than The Flash!</p>
+        </div>
+        <div>
+            <img src="images/laptop.png" alt="">
+            <h2>Super Fast</h2>
+            <p>Faster than The Flash!</p>
+        </div>
+    </div>
+        <!-- 
+            ex: "col-xs-6"
+            col = coluna
+            s, xs, md, lg = tamanho da tela
+            6 (1 a 12) = tamanho de colunas do elemento
+            O grid do bootstrap tem 12 colunas, se cada elemento tomar 6 ele terá duas colunas.
+            Usar o conceito de nested classes: Se o nome da classe for "dashboard-item img" ele vai pegar 2 sellectors do CSS.
+        -->
+        <!-- <div class="col"> -->
+            <!-- <div class="col-s-12 col-md-6"> -->
+                <div class="card">
+                    <div class=image">
+                        <img src="images/briefcase.png" alt="">
+                    </div>
+                    <div class="entry">
+                        <div class="margin">
+                            <div class="text">
+                                <h4>Explore!</h4>
+                                <p>Lorem Ipsumm the brown fox escaped!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            <!-- </div> -->
+        <!-- </div> -->
+        <div class="footer">
+            <p>This footer was created by Le Wagon</p>
+        </div>
+
+
+<!-- 
+</br></br></br></br>
+    <a href="http://lewagon.org" target="_black" text-decoration:none>Le Wagon</a>
+    </br></br>Hello World!
+    
+    <element attr="sthg"> </element> 
+    <p> Paragrafo</p>
+    <ul>Unorded list</ul>
+    <li>Lista</li>
+</body> -->
+<!--  COMMENTS -->
+</html>
